@@ -1,17 +1,20 @@
 PODS:
   - Masonry (0.6.4)
-  - SDWebImage (3.8.0):
-    - SDWebImage/Core (= 3.8.0)
-  - SDWebImage/Core (3.8.0)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - YQAdvCircleView (0.0.1):
+    - Masonry (~> 0.6)
+    - SDWebImage (~> 3.8)
 
 DEPENDENCIES:
-  - Masonry (~> 0.6)
-  - SDWebImage (= 3.8.0)
+  - YQAdvCircleView (~> 0.0)
 
 SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
-  SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  YQAdvCircleView: 3296d0bc932aa078ef5051adb3b476ed918d6c57
 
-PODFILE CHECKSUM: b2ef86116e96e113fa9cc14471df3352d8d634c9
+PODFILE CHECKSUM: f44e872752840e7622f721e144f6974e1964ea2c
 
 COCOAPODS: 1.0.1

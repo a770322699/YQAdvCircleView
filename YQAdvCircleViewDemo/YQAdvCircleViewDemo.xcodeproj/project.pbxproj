@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		2EF8BA92D40241D5F4D49D40 /* libPods-YQAdvCircleViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF232719243AFE1CBC8FB94 /* libPods-YQAdvCircleViewDemo.a */; };
 		6FE90D1B1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D1A1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m */; };
-		6FE90D251D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */; };
-		6FE90D261D0C025F00F2D2D9 /* YQAdvCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */; };
-		6FE90D271D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */; };
 		6FFD7FDC1D0BCC0900127EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FDB1D0BCC0900127EB0 /* main.m */; };
 		6FFD7FDF1D0BCC0900127EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FDE1D0BCC0900127EB0 /* AppDelegate.m */; };
 		6FFD7FE21D0BCC0900127EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FE11D0BCC0900127EB0 /* ViewController.m */; };
@@ -24,12 +21,6 @@
 		1400439C7CBA9796B77D0EDE /* Pods-YQAdvCircleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAdvCircleViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQAdvCircleViewDemo/Pods-YQAdvCircleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6FE90D191D0BFE0000F2D2D9 /* YQAdvCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleViewController.h; sourceTree = "<group>"; };
 		6FE90D1A1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleViewController.m; sourceTree = "<group>"; };
-		6FE90D1E1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleCollectionViewCell.h; sourceTree = "<group>"; };
-		6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleCollectionViewCell.m; sourceTree = "<group>"; };
-		6FE90D201D0C025F00F2D2D9 /* YQAdvCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleView.h; sourceTree = "<group>"; };
-		6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleView.m; sourceTree = "<group>"; };
-		6FE90D231D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleTableViewCell.h; sourceTree = "<group>"; };
-		6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleTableViewCell.m; sourceTree = "<group>"; };
 		6FFD7FD71D0BCC0900127EB0 /* YQAdvCircleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAdvCircleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFD7FDB1D0BCC0900127EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FFD7FDD1D0BCC0900127EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,40 +56,9 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6FE90D1C1D0C025F00F2D2D9 /* YQAdvCircleView */ = {
-			isa = PBXGroup;
-			children = (
-				6FE90D1D1D0C025F00F2D2D9 /* Core */,
-				6FE90D221D0C025F00F2D2D9 /* YQAdvCircleTableViewCell */,
-			);
-			name = YQAdvCircleView;
-			path = ../YQAdvCircleView;
-			sourceTree = "<group>";
-		};
-		6FE90D1D1D0C025F00F2D2D9 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6FE90D1E1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.h */,
-				6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */,
-				6FE90D201D0C025F00F2D2D9 /* YQAdvCircleView.h */,
-				6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		6FE90D221D0C025F00F2D2D9 /* YQAdvCircleTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				6FE90D231D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.h */,
-				6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */,
-			);
-			path = YQAdvCircleTableViewCell;
-			sourceTree = "<group>";
-		};
 		6FFD7FCE1D0BCC0900127EB0 = {
 			isa = PBXGroup;
 			children = (
-				6FE90D1C1D0C025F00F2D2D9 /* YQAdvCircleView */,
 				6FFD7FD91D0BCC0900127EB0 /* YQAdvCircleViewDemo */,
 				6FFD7FD81D0BCC0900127EB0 /* Products */,
 				5F602BDFEDF8FF4A1E28A66F /* Pods */,
@@ -269,12 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE90D251D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m in Sources */,
 				6FE90D1B1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m in Sources */,
-				6FE90D261D0C025F00F2D2D9 /* YQAdvCircleView.m in Sources */,
 				6FFD7FE21D0BCC0900127EB0 /* ViewController.m in Sources */,
 				6FFD7FDF1D0BCC0900127EB0 /* AppDelegate.m in Sources */,
-				6FE90D271D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m in Sources */,
 				6FFD7FDC1D0BCC0900127EB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
