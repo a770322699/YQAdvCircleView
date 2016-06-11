@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF8BA92D40241D5F4D49D40 /* libPods-YQAdvCircleViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF232719243AFE1CBC8FB94 /* libPods-YQAdvCircleViewDemo.a */; };
+		6FE90D1B1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D1A1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m */; };
+		6FE90D251D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */; };
+		6FE90D261D0C025F00F2D2D9 /* YQAdvCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */; };
+		6FE90D271D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */; };
+		6FFD7FDC1D0BCC0900127EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FDB1D0BCC0900127EB0 /* main.m */; };
+		6FFD7FDF1D0BCC0900127EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FDE1D0BCC0900127EB0 /* AppDelegate.m */; };
+		6FFD7FE21D0BCC0900127EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFD7FE11D0BCC0900127EB0 /* ViewController.m */; };
+		6FFD7FE51D0BCC0900127EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD7FE31D0BCC0900127EB0 /* Main.storyboard */; };
+		6FFD7FE71D0BCC0900127EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD7FE61D0BCC0900127EB0 /* Assets.xcassets */; };
+		6FFD7FEA1D0BCC0900127EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFD7FE81D0BCC0900127EB0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1400439C7CBA9796B77D0EDE /* Pods-YQAdvCircleViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAdvCircleViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YQAdvCircleViewDemo/Pods-YQAdvCircleViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE90D191D0BFE0000F2D2D9 /* YQAdvCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleViewController.h; sourceTree = "<group>"; };
+		6FE90D1A1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleViewController.m; sourceTree = "<group>"; };
+		6FE90D1E1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleCollectionViewCell.h; sourceTree = "<group>"; };
+		6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleCollectionViewCell.m; sourceTree = "<group>"; };
+		6FE90D201D0C025F00F2D2D9 /* YQAdvCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleView.h; sourceTree = "<group>"; };
+		6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleView.m; sourceTree = "<group>"; };
+		6FE90D231D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQAdvCircleTableViewCell.h; sourceTree = "<group>"; };
+		6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQAdvCircleTableViewCell.m; sourceTree = "<group>"; };
+		6FFD7FD71D0BCC0900127EB0 /* YQAdvCircleViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQAdvCircleViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFD7FDB1D0BCC0900127EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FFD7FDD1D0BCC0900127EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FFD7FDE1D0BCC0900127EB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FFD7FE01D0BCC0900127EB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FFD7FE11D0BCC0900127EB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FFD7FE41D0BCC0900127EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FFD7FE61D0BCC0900127EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FFD7FE91D0BCC0900127EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FFD7FEB1D0BCC0900127EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE03DECC14716215E7FBFE43 /* Pods-YQAdvCircleViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQAdvCircleViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YQAdvCircleViewDemo/Pods-YQAdvCircleViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DEF232719243AFE1CBC8FB94 /* libPods-YQAdvCircleViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQAdvCircleViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FFD7FD41D0BCC0900127EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF8BA92D40241D5F4D49D40 /* libPods-YQAdvCircleViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F602BDFEDF8FF4A1E28A66F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1400439C7CBA9796B77D0EDE /* Pods-YQAdvCircleViewDemo.debug.xcconfig */,
+				DE03DECC14716215E7FBFE43 /* Pods-YQAdvCircleViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FE90D1C1D0C025F00F2D2D9 /* YQAdvCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				6FE90D1D1D0C025F00F2D2D9 /* Core */,
+				6FE90D221D0C025F00F2D2D9 /* YQAdvCircleTableViewCell */,
+			);
+			name = YQAdvCircleView;
+			path = ../YQAdvCircleView;
+			sourceTree = "<group>";
+		};
+		6FE90D1D1D0C025F00F2D2D9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FE90D1E1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.h */,
+				6FE90D1F1D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m */,
+				6FE90D201D0C025F00F2D2D9 /* YQAdvCircleView.h */,
+				6FE90D211D0C025F00F2D2D9 /* YQAdvCircleView.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6FE90D221D0C025F00F2D2D9 /* YQAdvCircleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6FE90D231D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.h */,
+				6FE90D241D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m */,
+			);
+			path = YQAdvCircleTableViewCell;
+			sourceTree = "<group>";
+		};
+		6FFD7FCE1D0BCC0900127EB0 = {
+			isa = PBXGroup;
+			children = (
+				6FE90D1C1D0C025F00F2D2D9 /* YQAdvCircleView */,
+				6FFD7FD91D0BCC0900127EB0 /* YQAdvCircleViewDemo */,
+				6FFD7FD81D0BCC0900127EB0 /* Products */,
+				5F602BDFEDF8FF4A1E28A66F /* Pods */,
+				73788759482E2A52B7077746 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FFD7FD81D0BCC0900127EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD7FD71D0BCC0900127EB0 /* YQAdvCircleViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FFD7FD91D0BCC0900127EB0 /* YQAdvCircleViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD7FDD1D0BCC0900127EB0 /* AppDelegate.h */,
+				6FFD7FDE1D0BCC0900127EB0 /* AppDelegate.m */,
+				6FFD7FE01D0BCC0900127EB0 /* ViewController.h */,
+				6FFD7FE11D0BCC0900127EB0 /* ViewController.m */,
+				6FE90D191D0BFE0000F2D2D9 /* YQAdvCircleViewController.h */,
+				6FE90D1A1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m */,
+				6FFD7FE31D0BCC0900127EB0 /* Main.storyboard */,
+				6FFD7FE61D0BCC0900127EB0 /* Assets.xcassets */,
+				6FFD7FE81D0BCC0900127EB0 /* LaunchScreen.storyboard */,
+				6FFD7FEB1D0BCC0900127EB0 /* Info.plist */,
+				6FFD7FDA1D0BCC0900127EB0 /* Supporting Files */,
+			);
+			path = YQAdvCircleViewDemo;
+			sourceTree = "<group>";
+		};
+		6FFD7FDA1D0BCC0900127EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FFD7FDB1D0BCC0900127EB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73788759482E2A52B7077746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF232719243AFE1CBC8FB94 /* libPods-YQAdvCircleViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FFD7FD61D0BCC0900127EB0 /* YQAdvCircleViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFD7FEE1D0BCC0900127EB0 /* Build configuration list for PBXNativeTarget "YQAdvCircleViewDemo" */;
+			buildPhases = (
+				05BF9BEBC444FF423B37F5D0 /* [CP] Check Pods Manifest.lock */,
+				6FFD7FD31D0BCC0900127EB0 /* Sources */,
+				6FFD7FD41D0BCC0900127EB0 /* Frameworks */,
+				6FFD7FD51D0BCC0900127EB0 /* Resources */,
+				16028C22D5EDE0F6B9FB16D5 /* [CP] Embed Pods Frameworks */,
+				E00BAE4D4426DE3F2FE1C538 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQAdvCircleViewDemo;
+			productName = YQAdvCircleViewDemo;
+			productReference = 6FFD7FD71D0BCC0900127EB0 /* YQAdvCircleViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FFD7FCF1D0BCC0900127EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yiquan;
+				TargetAttributes = {
+					6FFD7FD61D0BCC0900127EB0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6FFD7FD21D0BCC0900127EB0 /* Build configuration list for PBXProject "YQAdvCircleViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FFD7FCE1D0BCC0900127EB0;
+			productRefGroup = 6FFD7FD81D0BCC0900127EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFD7FD61D0BCC0900127EB0 /* YQAdvCircleViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FFD7FD51D0BCC0900127EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFD7FEA1D0BCC0900127EB0 /* LaunchScreen.storyboard in Resources */,
+				6FFD7FE71D0BCC0900127EB0 /* Assets.xcassets in Resources */,
+				6FFD7FE51D0BCC0900127EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05BF9BEBC444FF423B37F5D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		16028C22D5EDE0F6B9FB16D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQAdvCircleViewDemo/Pods-YQAdvCircleViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00BAE4D4426DE3F2FE1C538 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YQAdvCircleViewDemo/Pods-YQAdvCircleViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FFD7FD31D0BCC0900127EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE90D251D0C025F00F2D2D9 /* YQAdvCircleCollectionViewCell.m in Sources */,
+				6FE90D1B1D0BFE0000F2D2D9 /* YQAdvCircleViewController.m in Sources */,
+				6FE90D261D0C025F00F2D2D9 /* YQAdvCircleView.m in Sources */,
+				6FFD7FE21D0BCC0900127EB0 /* ViewController.m in Sources */,
+				6FFD7FDF1D0BCC0900127EB0 /* AppDelegate.m in Sources */,
+				6FE90D271D0C025F00F2D2D9 /* YQAdvCircleTableViewCell.m in Sources */,
+				6FFD7FDC1D0BCC0900127EB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FFD7FE31D0BCC0900127EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFD7FE41D0BCC0900127EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FFD7FE81D0BCC0900127EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FFD7FE91D0BCC0900127EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FFD7FEC1D0BCC0900127EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FFD7FED1D0BCC0900127EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FFD7FEF1D0BCC0900127EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1400439C7CBA9796B77D0EDE /* Pods-YQAdvCircleViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQAdvCircleViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yiquan.com.YQAdvCircleViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FFD7FF01D0BCC0900127EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE03DECC14716215E7FBFE43 /* Pods-YQAdvCircleViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YQAdvCircleViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yiquan.com.YQAdvCircleViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FFD7FD21D0BCC0900127EB0 /* Build configuration list for PBXProject "YQAdvCircleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD7FEC1D0BCC0900127EB0 /* Debug */,
+				6FFD7FED1D0BCC0900127EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FFD7FEE1D0BCC0900127EB0 /* Build configuration list for PBXNativeTarget "YQAdvCircleViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FFD7FEF1D0BCC0900127EB0 /* Debug */,
+				6FFD7FF01D0BCC0900127EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FFD7FCF1D0BCC0900127EB0 /* Project object */;
+}
